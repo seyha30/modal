@@ -1,5 +1,7 @@
 import React, { useContext } from "react";
 import { ModalContext } from "./modalContext";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 const Component = () => {
   let { handleModal } = useContext(ModalContext);
 

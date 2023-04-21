@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { ModalContext } from "./modalContext";
-
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 const Modal = () => {
   let { modalContent, handleModal, modal } = React.useContext(ModalContext);
   if (modal) {
